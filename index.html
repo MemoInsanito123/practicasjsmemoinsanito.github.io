@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="styles.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="headerContainer">
+                <div class="headerLinks">
+                    
+                    <ul>
+                        <li><a href="#containerEjercicio1">Ejercicio1</a></li>
+                        <li><a href="#containerEjercicio02">Ejercicio2</a></li>
+                        <li><a href="#containerEjercicio3">Ejercicio3</a></li>
+                        <li><a href="containerEjercicio04">Ejercicio4</a></li>
+                        <li><a href="containerEjercicio05">Ejercicio5</a></li>
+                        <li><a href="containerEjercicio06">Ejercicio6</a></li>
+                        <li><a href="containerEjercicio07">Ejercicio7</a></li>
+                        <li><a href="#containerEjercicio08">Ejercicio8</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="containerEjercicio1" id="containerEjercicio1">
+
+            <h1>Ejercicio 1</h1>
+
+            <form action="" onsubmit="return false;">
+
+
+                <label for="input0Ejercicio1">Capital</label>
+                <input type="number" min="0" placeholder="Ingresa la capital inicial" required="Campo Vacio" id="input0Ejercicio1">
+
+                <input type="submit" name="" id="" onclick="ejercicio1OnClick()">
+            </form>
+            
+        </div>
+
+
+        <div class="containerEjercicio02" id="containerEjercicio02">
+            <h1>Ejercicio 2</h1>
+
+            <form action="" onsubmit="return false">
+                <label for="input0Ejercicio2">Sueldo</label>
+                <input type="number" name="" id="input0Ejercicio2" min="0" placeholder="Ingresa el sueldo" required>
+
+                <label for="input1Ejercicio2">Numero de comisiones</label>
+                <input type="number" id="input1Ejercicio2"  min="0" placeholder="Ingresa el numero de comisiones" required>
+
+                <input type="submit" onclick="ejercicio2OnClick()">
+            </form>
+
+        </div>
+
+        <div class="containerEjercicio03">
+            <h1>Ejercicio 3</h1>
+            <form action="" onsubmit="return false;">
+                <label for="input0Ejercicio3">Precio</label>
+                <input type="number" placeholder="Ingresa el precio de la compra" id="input0Ejercicio3">
+                
+                <input type="submit" onclick="ejercicio3OnClick()">
+
+            </form>
+        </div>
+        
+
+        <div class="containerEjercicio04">
+
+            <form action="" onsubmit="return false;">
+
+                <h1>Ejercicio 4</h1>
+
+                <label for="input0Ejercicio4">Calificacion 1</label>
+                <input type="number" placeholder="Ingresa la calificacion" required id="input0Ejercicio4" min="0">
+                
+                <label for="input1Ejercicio4">Calificacion 2</label>
+                <input type="number" placeholder="Ingresa la calificacion" required id="input1Ejercicio4" min="0">
+
+                <label for="input2Ejercicio4">Calificacion 3</label>
+                <input type="number" placeholder="Ingresa la calificacion" required id="input2Ejercicio4" min="0">
+
+                <label for="input3Ejercicio4">Examen Final </label>
+                <input type="number" placeholder="Ingresa la calificacion" required id="input3Ejercicio4" min="0">
+
+                <label for="input4Ejercicio4">Trabajo Final</label>
+                <input type="number" placeholder="Ingresa la calificacion" required id="input4Ejercicio4" min="0">
+
+                <input type="submit" onclick="ejercicio4OnClick()">
+            </form>
+
+        </div>
+    
+
+        <div class="containerEjercicio06" >
+
+            <h1>Ejercicio 6</h1>
+
+            <form action="" onsubmit="return false;">
+                <label for="input0Ejercicio6">Ingresa un teto para traducirlo</label>
+                <input type="text" placeholder="Texto" required id="input0Ejercicio6">
+
+                <input type="submit" onclick="ejercicio6OnClick()">
+            </form>
+
+        </div>
+
+
+        <div class="containerEjercicio07"></div>
+            <h1>Ejercicio 7</h1>
+
+            <form action="" onsubmit="return false;">
+                <label for="input0Ejercicio7">Monto</label>
+                <input type="number" name="" id="input0Ejercicio7" min="0" placeholder="Ingresa el monto" required>
+                <label for="input1Ejercicio7">Numero de horas</label>
+                <input type="number" id="input1Ejercicio7" placeholder="Ingresa el numero de horas" required>
+
+                <input type="submit" onclick="ejercicio7OnClick()">
+            </form>
+
+        </div>
+
+        <div class="containerEjercicio08" id = "containerEjercicio08">
+
+            <h1>Ejercicio 8</h1>
+
+            <form action="" onsubmit="return false;">
+                <label for="input0Ejercicio8">Salario</label>
+                <input type="number" min="0" id="input0Ejercicio8" required placeholder="Ingresa el salario">
+
+                <label for="input1Ejercicio8">Antiguedad</label>
+                <input type="number"  id="input1Ejercicio8"  placeholder="Ingresa la antiguedad">
+
+                <label for="input2Ejercicio8">Tiempo</label>
+                
+                <select id="input2Ejercicio8">
+
+                    <option selected>Años</option>    
+                    <option>Meses</option>
+                    <option>Semanas</option>
+                    <option>Dias</option>
+                    
+                </select>
+
+                <input type="submit" onclick="ejercicio8OnClick()">
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
